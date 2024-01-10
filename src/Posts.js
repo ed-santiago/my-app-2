@@ -6,7 +6,7 @@ function Posts() {
   const [postsArray, setPostsArray] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_API_URL}/posts`)
+    fetch(`https://social-media-project-s52o.onrender.com/posts`)
       .then((r) => r.json())
       .then((posts) => setPostsArray(posts))
   }, [])

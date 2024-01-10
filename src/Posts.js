@@ -21,6 +21,7 @@ function Posts() {
     <div>
       {element}
       {postsElement}
+      <h1>will this work?</h1>
     </div>
   );
 }
